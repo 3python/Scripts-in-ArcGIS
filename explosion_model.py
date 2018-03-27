@@ -6,7 +6,8 @@ from arcpy import env
 
 #Set the workspace environment/
 #This is the location that the script looks for and creates files in.
-arcpy.env.workspace = "M:/Python_Advanced/albertsurface"
+#Type in your filepath below
+arcpy.env.workspace = "M:/"
 
 #Give names to the shapefiles that are created when the software is run.
 #Name the intermediate buffer. This is a circle with a specified radius from the explosion point.
